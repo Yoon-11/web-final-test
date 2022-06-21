@@ -14,6 +14,7 @@ switch (level) {
         console.log('다음에 입력해주세요.'); break;
 }
 
+
 function addInf() {
     const result = document.getElementById('list');
     const newAddr = document.getElementsByName("name")[0].value + ' , ' + document.getElementsByName('tel')[0].value;
